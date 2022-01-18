@@ -1,0 +1,31 @@
+    body,
+    html,
+    ul,
+    li,
+    ol,
+    p,
+    span,
+    a,
+    div,
+    em,
+    i,
+    form,
+    input,
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 0;
+    }
