@@ -40,3 +40,30 @@
     a {
         text-decoration: none;
     }
+    
+    @media screen and (max-width: 767px) {
+        .typeArea {
+            width: 100%;
+        }
+    }
+    /* 小屏幕 */
+    
+    @media screen and (min-width: 768px) {
+        .typeArea {
+            width: 768px;
+        }
+    }
+    /* 中等屏幕 */
+    
+    @media screen and (min-width: 992px) {
+        .typeArea {
+            width: 992px;
+        }
+    }
+    /* 大屏幕 */
+    
+    @media screen and (min-width: 1200px) {
+        .typeArea {
+            width: 1200px;
+        }
+    }
