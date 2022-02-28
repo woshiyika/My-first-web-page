@@ -62,6 +62,7 @@ a {
     .phone {
         display: block;
         color: aquamarine;
+        margin-right: 30px;
     }
     .phone:hover+.bar2 {
         left: 0;
