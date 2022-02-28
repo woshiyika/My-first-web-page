@@ -70,7 +70,6 @@ a {
     }
     .bar2 {
         position: fixed;
-        z-index: 55;
     }
     .bar2 li {
         overflow: hidden;

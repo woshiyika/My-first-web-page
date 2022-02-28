@@ -121,7 +121,7 @@
             background-color: rgb(170, 243, 1);
             overflow: hidden;
             transition: width 0.5s ease;
-            left: -999999px;
+            z-index: 55;
         }
         
         main .myself {
