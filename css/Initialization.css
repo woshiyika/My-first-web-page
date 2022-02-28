@@ -66,7 +66,7 @@ a {
     }
     .phone:hover+.bar2 {
         left: 0;
-        width: 65%;
+        width: 75%;
     }
     .bar2 {
         display: flex;
