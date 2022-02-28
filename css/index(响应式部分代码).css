@@ -1,0 +1,73 @@
+@media screen and (max-width: 767px) {
+    .headerTypeArea {
+        width: 100%;
+    }
+    .typeArea {
+        width: 100%;
+        margin: 0 auto;
+    }
+    header .bar {
+        display: none;
+    }
+    header .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .phone {
+        display: block;
+        position: fixed;
+        right: 0;
+        color: aquamarine;
+        margin-right: 30px;
+    }
+    .phone:hover+.bar2 {
+        left: 0;
+        width: 75%;
+    }
+    header .logo::after {
+        left: 0;
+        top: 100%;
+    }
+}
+
+
+/* 小屏幕 */
+
+@media screen and (min-width: 768px) {
+    .headerTypeArea {
+        width: 768px;
+    }
+    .typeArea {
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+
+/* 中等屏幕 */
+
+@media screen and (min-width: 992px) {
+    .headerTypeArea {
+        width: 992px;
+    }
+    .typeArea {
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+
+
+/* 大屏幕 */
+
+@media screen and (min-width: 1200px) {
+    .headerTypeArea {
+        width: 1200px;
+    }
+    .typeArea {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}

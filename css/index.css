@@ -1,3 +1,5 @@
+        /* 初始页面 */
+        
         .homePagebj {
             position: relative;
             width: 100%;
@@ -138,6 +140,7 @@
             background-color: skyblue;
             border-radius: 50%;
         }
+        /* 内容的开始 */
         
         main .myself {
             display: flex;
