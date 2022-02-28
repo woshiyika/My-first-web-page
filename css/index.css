@@ -112,6 +112,9 @@
     }
     
     main .myself {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         height: 450px;
         margin-top: 20px;
     }
