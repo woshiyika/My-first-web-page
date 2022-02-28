@@ -124,6 +124,22 @@
             z-index: 55;
         }
         
+        .bar2 {
+            position: fixed;
+        }
+        
+        .bar2 li {
+            overflow: hidden;
+        }
+        
+        .user {
+            width: 100px;
+            height: 100px;
+            margin: 0;
+            background-color: skyblue;
+            border-radius: 50%;
+        }
+        
         main .myself {
             display: flex;
             justify-content: space-evenly;
