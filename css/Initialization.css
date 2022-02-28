@@ -94,6 +94,10 @@ a {
         background-color: skyblue;
         border-radius: 50%;
     }
+    header .logo::after {
+        left: 0;
+        top: 100%;
+    }
 }
 
 
