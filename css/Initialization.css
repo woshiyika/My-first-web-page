@@ -56,11 +56,13 @@ a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 100%;
+        height: 50px;
         margin: 0 auto;
     }
     .phone {
         display: block;
+        position: fixed;
+        right: 0;
         color: aquamarine;
         margin-right: 30px;
     }
