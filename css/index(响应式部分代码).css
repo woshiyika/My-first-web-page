@@ -20,9 +20,12 @@
         display: block;
         z-index: 999;
     }
-    .phone:hover+.bar2 {
+    #carNav:checked+.bar2 {
         left: 0;
         width: 75%;
+    }
+    .at:hover .phone {
+        color: rgb(10, 175, 240);
     }
     header .logo::after {
         left: 0;
