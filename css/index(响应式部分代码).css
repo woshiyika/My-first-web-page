@@ -18,10 +18,7 @@
     }
     .phone {
         display: block;
-        position: fixed;
-        right: 0;
-        color: aquamarine;
-        margin-right: 30px;
+        z-index: 999;
     }
     .phone:hover+.bar2 {
         left: 0;
