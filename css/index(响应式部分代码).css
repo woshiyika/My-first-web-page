@@ -19,6 +19,21 @@
         height: 50px;
         margin: 0 auto;
     }
+    header .nav .bar2 li {
+        height: 8%;
+        width: 70%;
+        text-align: center;
+        border-bottom: 1px solid aquamarine;
+    }
+    header .nav .bar2 li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    header .nav .bar2 li:hover {
+        background-color: cadetblue;
+        border-bottom: 1px solid rgb(247, 126, 126);
+    }
     .phone {
         display: block;
         z-index: 999;
@@ -33,10 +48,10 @@
     .at:hover .phone {
         color: rgb(10, 175, 240);
     }
-    header .logo::after {
+    /* header .logo::after {
         left: 0;
         top: 100%;
-    }
+    } */
     main .myself {
         align-content: flex-start;
         height: 100%;
