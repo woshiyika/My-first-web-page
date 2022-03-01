@@ -6,6 +6,9 @@
         width: 100%;
         margin: 0 auto;
     }
+    .homePagebg {
+        background: url(../images/homePageBj.jpg) no-repeat 59% 100%/cover fixed;
+    }
     header .bar {
         display: none;
     }
@@ -23,6 +26,9 @@
     #carNav:checked+.bar2 {
         left: 0;
         width: 75%;
+    }
+    .at {
+        display: block;
     }
     .at:hover .phone {
         color: rgb(10, 175, 240);

@@ -78,6 +78,10 @@
             border-bottom: 3px solid rgba(255, 255, 0, 0.753);
         }
         
+        .at {
+            display: none;
+        }
+        
         .drop-down {
             position: absolute;
             top: 88%;
@@ -103,9 +107,10 @@
         }
         
         .phone {
-            line-height: 35px;
+            line-height: 50px;
             font-size: 25px;
             position: fixed;
+            top: 0;
             right: 0;
             color: aquamarine;
             margin-right: 30px;
