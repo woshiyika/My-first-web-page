@@ -37,6 +37,10 @@
         left: 0;
         top: 100%;
     }
+    main .myself {
+        align-content: flex-start;
+        height: 100%;
+    }
 }
 
 
@@ -50,6 +54,10 @@
         width: 700px;
         margin: 0 auto;
     }
+    main .myself {
+        align-content: flex-start;
+        height: 100%;
+    }
 }
 
 
@@ -62,6 +70,10 @@
     .typeArea {
         width: 900px;
         margin: 0 auto;
+    }
+    main .myself {
+        align-content: flex-start;
+        height: 100%;
     }
 }
 
