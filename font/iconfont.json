@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "4511757",
+      "name": "样式",
+      "font_class": "yangshi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "5634720",
+      "name": "html5",
+      "font_class": "html",
+      "unicode": "f1d0",
+      "unicode_decimal": 61904
+    },
+    {
+      "icon_id": "8493388",
+      "name": "算法库",
+      "font_class": "suanfaku",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "8804499",
+      "name": "01-框架_ icon",
+      "font_class": "-kuangjia_kechengtixiguanli",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "15214520",
+      "name": "js",
+      "font_class": "js",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
       "icon_id": "27454392",
       "name": "猫爪",
       "font_class": "claw",

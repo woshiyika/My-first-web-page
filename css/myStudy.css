@@ -1,0 +1,117 @@
+.typeArea {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding-bottom: 0.1px;
+}
+
+.headernav {
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: skyblue;
+}
+
+header .logo {
+    position: relative;
+    width: 175px;
+    height: 100%;
+}
+
+header .logo h1 {
+    height: 100%;
+}
+
+header .logo h1 a {
+    display: block;
+    width: 175px;
+    height: 100%;
+    font-size: 0;
+    background: url(../images/伊卡の窝.png)no-repeat 100% 100% /cover;
+}
+
+.nav .bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav .bar li a {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    color: aliceblue;
+}
+
+.nav .bar li {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    transition: .5s all;
+}
+
+.nav .bar li:hover {
+    background-color: rgba(3, 134, 90, 0.329);
+    border-bottom: 3px solid rgb(20, 99, 109);
+}
+
+
+/* 轮播模块 */
+
+.slideshow {
+    height: 400px;
+    background-color: deepskyblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* 内容开始 */
+
+.webThree {
+    margin-top: 20px;
+}
+
+.webUp {
+    height: 30px;
+}
+
+.webDown {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    background-color: pink;
+}
+
+.webDown>div {
+    width: 350px;
+    height: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.webDown>div>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}

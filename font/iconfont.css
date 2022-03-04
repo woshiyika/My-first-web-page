@@ -1,16 +1,36 @@
 @font-face {
     font-family: "iconfont";
     /* Project id 3209487 */
-    src: url('iconfont.woff2?t=1646034906752') format('woff2'), url('iconfont.woff?t=1646034906752') format('woff'), url('iconfont.ttf?t=1646034906752') format('truetype');
+    src: url('iconfont.woff2?t=1646307033573') format('woff2'), url('iconfont.woff?t=1646307033573') format('woff'), url('iconfont.ttf?t=1646307033573') format('truetype');
 }
 
 .iconfont {
     font-family: "iconfont" !important;
     font-size: 16px;
     font-style: normal;
-    color: aliceblue;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: aliceblue;
+}
+
+.icon-yangshi:before {
+    content: "\e632";
+}
+
+.icon-html:before {
+    content: "\f1d0";
+}
+
+.icon-suanfaku:before {
+    content: "\e623";
+}
+
+.icon-kuangjia:before {
+    content: "\e603";
+}
+
+.icon-js:before {
+    content: "\e60d";
 }
 
 .icon-claw:before {
